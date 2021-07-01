@@ -1,0 +1,75 @@
+|top_de10_nios
+RST_N => ~NO_FANOUT~
+FPGA_CLK1_50 => FPGA_CLK1_50.IN1
+KEY[0] => KEY[0].IN1
+KEY[1] => ~NO_FANOUT~
+LED[0] <= counter0[27].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= counter0[26].DB_MAX_OUTPUT_PORT_TYPE
+LED[2] <= counter0[25].DB_MAX_OUTPUT_PORT_TYPE
+LED[3] <= counter0[24].DB_MAX_OUTPUT_PORT_TYPE
+LED[4] <= counter0[23].DB_MAX_OUTPUT_PORT_TYPE
+LED[5] <= counter0[22].DB_MAX_OUTPUT_PORT_TYPE
+LED[6] <= counter0[21].DB_MAX_OUTPUT_PORT_TYPE
+LED[7] <= PwmCtrl:u0.LED0
+
+
+|top_de10_nios|PwmCtrl:u0
+RST_N => counter0[0].ACLR
+RST_N => counter0[1].ACLR
+RST_N => counter0[2].ACLR
+RST_N => counter0[3].ACLR
+RST_N => counter0[4].ACLR
+RST_N => counter0[5].ACLR
+RST_N => counter0[6].ACLR
+RST_N => counter0[7].ACLR
+RST_N => counter0[8].ACLR
+RST_N => counter0[9].ACLR
+RST_N => counter0[10].ACLR
+RST_N => counter0[11].ACLR
+RST_N => counter0[12].ACLR
+RST_N => counter0[13].ACLR
+RST_N => counter0[14].ACLR
+RST_N => counter0[15].ACLR
+RST_N => counter0[16].ACLR
+RST_N => counter0[17].ACLR
+RST_N => counter0[18].ACLR
+RST_N => counter0[19].ACLR
+RST_N => counter0[20].ACLR
+RST_N => counter0[21].ACLR
+RST_N => counter0[22].ACLR
+RST_N => counter0[23].ACLR
+RST_N => counter0[24].ACLR
+RST_N => counter0[25].ACLR
+RST_N => counter0[26].ACLR
+RST_N => counter0[27].ACLR
+CLK => counter0[0].CLK
+CLK => counter0[1].CLK
+CLK => counter0[2].CLK
+CLK => counter0[3].CLK
+CLK => counter0[4].CLK
+CLK => counter0[5].CLK
+CLK => counter0[6].CLK
+CLK => counter0[7].CLK
+CLK => counter0[8].CLK
+CLK => counter0[9].CLK
+CLK => counter0[10].CLK
+CLK => counter0[11].CLK
+CLK => counter0[12].CLK
+CLK => counter0[13].CLK
+CLK => counter0[14].CLK
+CLK => counter0[15].CLK
+CLK => counter0[16].CLK
+CLK => counter0[17].CLK
+CLK => counter0[18].CLK
+CLK => counter0[19].CLK
+CLK => counter0[20].CLK
+CLK => counter0[21].CLK
+CLK => counter0[22].CLK
+CLK => counter0[23].CLK
+CLK => counter0[24].CLK
+CLK => counter0[25].CLK
+CLK => counter0[26].CLK
+CLK => counter0[27].CLK
+LED0 <= counter0[27].DB_MAX_OUTPUT_PORT_TYPE
+
+
